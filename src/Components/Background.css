@@ -1,0 +1,40 @@
+.Background{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../assets/Realestate.jpg');
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.Background-text{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.search-input{
+    width: 300px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid;
+    outline: none;
+}
+
+.search-input:focus{
+    border-color: gray;
+}
+
+
+
+
+
+
