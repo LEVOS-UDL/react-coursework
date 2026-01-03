@@ -3,3 +3,21 @@
     padding: 0 80px;
     position: relative;
 }
+
+.LArrow-btn, .RArrow-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: gray;
+    
+}
+
+.LArrow-btn{
+    right: auto;
+    left: 0;
+}
