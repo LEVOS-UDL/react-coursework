@@ -1,9 +1,12 @@
 import React from 'react'
+import './Agents.css'
 
 const Agents = () => {
   return (
-    <div>
-      <h1>test2</h1>
+    <div className='Agents'>
+      <img src={"s"} alt='' className='\' />
+      <img src={"s"} alt='' className='\' />
+      <div className='slider'></div>
     </div>
   )
 }
