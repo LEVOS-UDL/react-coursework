@@ -1,0 +1,29 @@
+.houses img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.house-Card{
+    box-shadow: 0 5px 10px;
+    transition: 0.5;
+    margin: 20px;
+    width: 500px;
+}
+
+.house-Card:hover{
+    box-shadow: 0 10px 15px;
+}
+
+.container1{
+    padding: 2px 16px;
+    display: flex;
+}
+
+.houses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+

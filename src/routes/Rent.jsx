@@ -3,7 +3,7 @@ import React from 'react'
 const Rent = () => {
   return (
     <div>
-      <h1>test test test</h1>
+      <h1></h1>
     </div>
   )
 }
